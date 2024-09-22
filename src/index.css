@@ -1,0 +1,78 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #270858;
+    padding: 15px;
+    color: white;
+}
+
+.brand{
+    font-weight: bolder;
+    width: 20%;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+
+}
+.search-bar{
+    width: 60%;
+}
+
+.search-bar >input{
+    width: 55%;
+    /* text-align: center; */
+    
+    
+}
+
+
+input::placeholder{
+    padding: 10px;
+    font-weight: bold;
+}
+
+.cart{
+width: 20%;
+text-align: center;
+font-weight: bolder;
+font-size: 1.5rem;
+text-decoration: none;
+    color: white;
+}
+
+.nav-bar-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #4b1b78;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.img >img{
+    height: 350px;
+    width: 350px;
+}
+
+.arrange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+.container{
+    margin-top: 5%;
+    
+}
+
+.ram{
+    position: relative;
+    left: 25%;
+    /* margin-top: 2%; */
+}
